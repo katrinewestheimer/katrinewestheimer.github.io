@@ -1,0 +1,100 @@
+<style>
+* {
+              box-sizing: border-box;
+}
+
+body {
+              margin: 1px;
+              padding: 1px;
+              font-family: Arial, Helvetica, sans-serif;
+              background-color:white;
+              text-align: left;             
+}
+
+/* Style the side navigation */
+.sidenav {
+              
+              height: 100%;
+              width: 200px;
+              position: fixed;
+              z-index: 1;
+              top: 100;
+              left: 0;
+              background-color: white;
+              overflow-x: auto;
+            
+}
+
+
+/* Side navigation links */
+.sidenav a {
+              color:black (226, 179, 179);
+              padding: 15px;
+              margin: 5px;
+              text-decoration: none;
+              display: block;
+              font-size: 100%;
+              background-color: lightblue;
+}
+
+/* Change color on hover */
+.sidenav a:hover {
+              color: black;
+}
+/* Style the header */
+.header{
+              margin-left: 200px;
+              padding-left: 5px;
+              text-align: center;
+              background-color:lightblue;
+    
+                  
+}
+
+/* Style the content */
+.content {
+              margin-left: 200px;
+              padding-left: 10px;
+              padding-top: 30px;
+              background-color: white
+}
+/* style the bodysection*/
+.body-section {
+  font-style: italic;
+
+            }
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 20%;
+  padding: 5px;
+}
+
+
+
+            
+/* Clear floats after image containers */
+            .row::after {
+              content: "";
+              clear: both;
+              display: table;
+            }
+            .right{
+              float:right;
+          }
+
+/* Clear floats after image containers */
+.body-section{
+              margin-left: 200px;
+              padding-left: 5px;
+              border-top: 5px;
+              background-color:white;
+            ;
+}
+
+/* text floating next to eachother */     
+          .alignRight {
+              float: right;
+            }
+</style>
